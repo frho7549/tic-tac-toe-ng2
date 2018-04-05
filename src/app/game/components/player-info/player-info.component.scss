@@ -1,0 +1,19 @@
+@import "variables";
+
+.player
+{
+  padding: 2em;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+
+.player-one
+{
+  background-color: $colorMine;
+}
+
+.player-two
+{
+  background-color: $colorTheirs;
+}

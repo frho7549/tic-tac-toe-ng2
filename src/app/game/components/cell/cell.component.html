@@ -1,0 +1,6 @@
+<div class="cell"
+     (click)="onClick()"
+      [ngClass]="{'empty': (data.state === cellState.EMPTY),
+                  'mine': (data.state === cellState.MINE),
+                  'theirs': (data.state === cellState.THEIRS)}">
+</div>

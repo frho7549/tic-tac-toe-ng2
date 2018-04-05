@@ -1,0 +1,22 @@
+@import "variables";
+
+.cell
+{
+  width: 100%;
+  height: 100%;
+
+  &.empty
+  {
+   background-color: $colorEmpty;
+  }
+
+  &.mine
+  {
+    background-color: $colorMine;
+  }
+
+  &.theirs
+  {
+    background-color: $colorTheirs;
+  }
+}

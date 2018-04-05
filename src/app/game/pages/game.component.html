@@ -1,0 +1,6 @@
+<app-player-info [data]="boardData | async"></app-player-info>
+<app-board [data]="boardData | async"
+           (cellSelected)="onCellSelected($event)"
+           (restartRequested)="startNewGame()"
+></app-board>
+<p>state: {{ state | async }}</p>

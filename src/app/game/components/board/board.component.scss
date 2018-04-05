@@ -1,0 +1,15 @@
+.board
+{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 10px;
+  width: 600px;
+  height: 600px;
+
+  .row
+  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+  }
+}

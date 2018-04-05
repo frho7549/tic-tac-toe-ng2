@@ -1,0 +1,4 @@
+<span class="player"
+      [ngClass]="{'player-one': (data.currentPlayer === playerType.PLAYER1),
+                  'player-two': (data.currentPlayer === playerType.PLAYER2)
+                }">Player: {{ data.currentPlayer }}</span>
